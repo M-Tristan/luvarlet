@@ -1,0 +1,15 @@
+{
+  "name": "@varlet/shared",
+  "version": "1.0.0",
+  "description": "",
+  "module": "es/index.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "dev:cjs": "tsc -p tsconfig.cjs.json --watch",
+    "build": "tsc && tsc -p tsconfig.cjs.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
