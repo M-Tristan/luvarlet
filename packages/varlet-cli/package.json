@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/helper-plugin-utils": "^7.19.0",
+    "@varlet/shared": "workspace:*",
     "chalk": "^5.1.2",
     "commander": "^9.4.1",
     "conventional-changelog": "^3.1.25",
@@ -17,17 +20,24 @@
     "fs-extra": "^10.1.0",
     "glob": "^8.0.3",
     "inquirer": "^9.1.4",
+    "lodash": "^4.17.21",
     "ora": "^6.1.2",
-    "semver": "^7.3.8"
+    "semver": "^7.3.8",
+    "vite-plugin-html": "^3.2.0",
+    "vue": "^3.2.41"
   },
   "devDependencies": {
+    "@types/babel__core": "^7.1.19",
     "@types/conventional-changelog": "^3.1.1",
     "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^8.0.0",
     "@types/inquirer": "^9.0.2",
+    "@types/lodash": "^4.14.186",
     "@types/node": "^18.11.0",
     "@types/semver": "^7.3.12",
     "@vitejs/plugin-vue": "^3.1.2",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
+    "core": "link:@types/@babel/core",
     "vite": "^3.1.8"
   },
   "peerDependencies": {
